@@ -38,7 +38,8 @@
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
-<!--                    <autoVersionSubmodules>true</autoVersionSubmodules>-->
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <releaseProfiles>release</releaseProfiles>
                 </configuration>
             </plugin>
         </plugins>
